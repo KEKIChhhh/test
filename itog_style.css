@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #E6E6FA; /* Светло-фиолетовый */
+}
+h1 {
+    text-align: center;
+    color: #9370DB; /* Средний светло-фиолетовый */
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #D8BFD8; /* Светло-фиолетовый */
+    border-radius: 5px;
+    background-color: #fff;
+}
+a {
+    text-decoration: none;
+    color: #8A2BE2; /* Более темный средний светло-фиолетовый */
+}
+a:hover {
+    text-decoration: underline;
+    color: #9932CC; /* Темно-фиолетовый */
+}
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #483D8B; /* Темно-фиолетовый */
+        color: #fff;
+    }
+    li {
+        border-color: #9400D3; /* Темно-фиолетовый */
+        background-color: #6A5ACD; /* Средний фиолетовый */
+    }
+    a {
+        color: #E0B0FF; /* Светло-фиолетовый */
+    }
+}

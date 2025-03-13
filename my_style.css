@@ -1,0 +1,45 @@
+/* practice_style.css - Тёмная тема */
+
+body {
+    background-color: #E6E6FA; /* Светло-фиолетовый */
+    color: #000;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #D8BFD8; /* Светло-фиолетовый */
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #9370DB; /* Средний светло-фиолетовый */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #8A2BE2; /* Более темный средний светло-фиолетовый */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #9932CC; /* Темно-фиолетовый */
+}
